@@ -1,0 +1,140 @@
+.acordeon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid #FFF;
+    border-radius: 0.5rem;
+    color: #FFF;
+}
+
+.acordeon:not(:has(.hide)){
+    background-color: rgb(57, 17, 65);
+}
+
+.acordeon:hover, .trigger:hover {
+    cursor: pointer;
+    background-color: rgb(57, 17, 65);
+}
+
+.trigger {
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.bx-down-arrow-alt {
+    margin-top: 8px;
+}
+
+.skills {
+    display: flex;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    padding: 10px 10px 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.abilities {
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.skills ul {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.skills li {
+    font-size: 0.9rem;
+}
+
+.skills li::before {
+    content: "➜";
+    margin-right: 5px;
+}
+
+.icons {
+    margin-top: 25px;
+    max-width: 223px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.icons .icon {
+    width: 48px;
+}
+
+.hide{
+    display: none;
+    max-height: 0px;
+}
+.list-language {
+    padding: 20px;
+    list-style: circle;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 1rem;
+    justify-content: space-around;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.portfolio a {
+    color: rgb(0, 162, 255);
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.education {
+    padding: 15px;
+}
+
+.jobs {
+    padding: 15px;
+}
+
+.content .title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.fa-github {
+    font-size: 2rem;
+    margin-right: 15px;
+}
+
+.data-time {
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.description-job {
+    font-size: .9rem;
+    margin-top: 10px;
+    font-style: italic;
+    opacity: .7;
+}
+
+.area {
+    opacity: .8;
+}
